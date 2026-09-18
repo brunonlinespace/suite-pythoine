@@ -1,0 +1,24 @@
+{
+  "id": "example-editor",
+  "name": "Example Editor",
+  "description": "Optional package metadata for a component already approved by Suite Pythoine's trusted component catalogue. This file does not grant trust by itself.",
+  "component_kind": "editor",
+  "extensions": [
+    ".abc",
+    ".xyz"
+  ],
+  "portable_command": [
+    "main.py"
+  ],
+  "icon": "example_editor/assets/icon.png",
+  "version": "1.2.3",
+  "publisher": "brunonlinespace",
+  "desktop_id": "io.github.brunonlinespace.example-editor",
+  "tagline": "Friendly. Fast. Focused.",
+  "publisher_id": "brunonlinespace",
+  "capabilities": {
+    "routing": true,
+    "open": true,
+    "create": true
+  }
+}

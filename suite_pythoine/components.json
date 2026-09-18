@@ -1,0 +1,653 @@
+{
+  "schema": 1,
+  "publisher_id": "brunonlinespace",
+  "catalog_revision": 9,
+  "components": [
+    {
+      "id": "suite-pythoine",
+      "name": "Suite Pythoine",
+      "kind": "hub",
+      "publisher_id": "brunonlinespace",
+      "description": "File routing and component-management hub for the brunonlinespace application family.",
+      "extensions": [
+        ".txt",
+        ".log",
+        ".ini",
+        ".cfg",
+        ".conf",
+        ".md",
+        ".markdown",
+        ".mdown",
+        ".mkd",
+        ".rtf",
+        ".tex",
+        ".bib",
+        ".pdf",
+        ".epub",
+        ".py",
+        ".sh",
+        ".html",
+        ".htm",
+        ".css",
+        ".js",
+        ".mjs",
+        ".cjs",
+        ".ts",
+        ".mts",
+        ".cts",
+        ".jsx",
+        ".tsx"
+      ],
+      "identity_hints": [
+        "suite-pythoine",
+        "Suite Pythoine"
+      ],
+      "appimage_prefixes": [
+        "Suite-Pythoine"
+      ],
+      "repository": "brunonlinespace/suite-pythoine",
+      "mime_types": [
+        "text/plain",
+        "text/x-log",
+        "text/markdown",
+        "text/rtf",
+        "application/rtf",
+        "text/x-tex",
+        "text/x-bibtex",
+        "application/pdf",
+        "application/epub+zip",
+        "text/x-python",
+        "text/x-python3",
+        "application/x-shellscript",
+        "text/html",
+        "application/xhtml+xml",
+        "text/css",
+        "application/javascript",
+        "text/javascript",
+        "text/typescript",
+        "application/typescript"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "suite-pythoine"
+    },
+    {
+      "id": "markopad",
+      "name": "Markopad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A focused, source-faithful Markdown editor.",
+      "extensions": [
+        ".md",
+        ".markdown",
+        ".mdown",
+        ".mkd"
+      ],
+      "identity_hints": [
+        "markopad",
+        "Markopad"
+      ],
+      "appimage_prefixes": [
+        "Markopad"
+      ],
+      "repository": "brunonlinespace/markopad",
+      "mime_types": [
+        "text/markdown"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "markopad"
+    },
+    {
+      "id": "nuxpad",
+      "name": "Nuxpad 2",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight general-purpose text editor.",
+      "extensions": [
+        ".txt",
+        ".log",
+        ".ini",
+        ".cfg",
+        ".conf"
+      ],
+      "identity_hints": [
+        "nuxpad",
+        "nuxpad2",
+        "nuxpad-2",
+        "Nuxpad 2"
+      ],
+      "appimage_prefixes": [
+        "Nuxpad-2",
+        "Nuxpad"
+      ],
+      "repository": "brunonlinespace/nuxpad.py",
+      "mime_types": [
+        "text/plain",
+        "text/x-log"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "nuxpad2"
+    },
+    {
+      "id": "ricopad",
+      "name": "Ricopad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight Rich Text Format (RTF) editor.",
+      "extensions": [
+        ".rtf"
+      ],
+      "identity_hints": [
+        "ricopad",
+        "Ricopad"
+      ],
+      "appimage_prefixes": [
+        "Ricopad"
+      ],
+      "repository": "brunonlinespace/ricopad",
+      "mime_types": [
+        "text/rtf",
+        "application/rtf"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "ricopad"
+    },
+    {
+      "id": "texypad",
+      "name": "Texypad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A focused LaTeX and BibTeX editor.",
+      "extensions": [
+        ".tex",
+        ".bib"
+      ],
+      "identity_hints": [
+        "texypad",
+        "Texypad"
+      ],
+      "appimage_prefixes": [
+        "Texypad"
+      ],
+      "mime_types": [
+        "text/x-tex",
+        "text/x-bibtex"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "texypad"
+    },
+    {
+      "id": "sheepy-pad",
+      "name": "Sheepy Pad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight Python and shell-script editor.",
+      "extensions": [
+        ".py",
+        ".sh"
+      ],
+      "identity_hints": [
+        "sheepy-pad",
+        "sheepy pad",
+        "sheepypad",
+        "Sheepy Pad"
+      ],
+      "appimage_prefixes": [
+        "Sheepy-Pad",
+        "SheepyPad",
+        "Sheepy"
+      ],
+      "repository": "brunonlinespace/sheepy-pad",
+      "mime_types": [
+        "text/x-python",
+        "text/x-python3",
+        "application/x-shellscript"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "sheepy-pad"
+    },
+    {
+      "id": "timblee-pad",
+      "name": "Timblee Pad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight HTML and CSS editor.",
+      "extensions": [
+        ".html",
+        ".htm",
+        ".css"
+      ],
+      "identity_hints": [
+        "timblee-pad",
+        "timblee pad",
+        "timbleepad",
+        "Timblee Pad"
+      ],
+      "appimage_prefixes": [
+        "Timblee-Pad",
+        "TimbleePad",
+        "Timblee"
+      ],
+      "repository": "brunonlinespace/timblee-pad",
+      "mime_types": [
+        "text/html",
+        "application/xhtml+xml",
+        "text/css"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "timblee-pad"
+    },
+    {
+      "id": "jsts-pad",
+      "name": "JSTS Pad",
+      "kind": "editor",
+      "publisher_id": "brunonlinespace",
+      "description": "A focused JavaScript, TypeScript, JSX and TSX source editor.",
+      "extensions": [
+        ".js",
+        ".mjs",
+        ".cjs",
+        ".ts",
+        ".mts",
+        ".cts",
+        ".jsx",
+        ".tsx"
+      ],
+      "identity_hints": [
+        "jsts-pad",
+        "jsts pad",
+        "jstspad",
+        "JSTS Pad",
+        "JSTS"
+      ],
+      "appimage_prefixes": [
+        "JSTS-Pad",
+        "JSTSPad",
+        "JSTS"
+      ],
+      "repository": "brunonlinespace/jsts-pad",
+      "mime_types": [
+        "application/javascript",
+        "text/javascript",
+        "text/typescript",
+        "application/typescript"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": true
+      },
+      "config_subdir": "jsts-pad"
+    },
+    {
+      "id": "kapitulindo",
+      "name": "Kapitulindo",
+      "kind": "reader",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight EPUB reader.",
+      "extensions": [
+        ".epub"
+      ],
+      "identity_hints": [
+        "kapitulindo",
+        "Kapitulindo"
+      ],
+      "appimage_prefixes": [
+        "Kapitulindo"
+      ],
+      "mime_types": [
+        "application/epub+zip"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": false
+      },
+      "config_subdir": "kapitulindo"
+    },
+    {
+      "id": "portapad",
+      "name": "Portapad",
+      "kind": "reader",
+      "publisher_id": "brunonlinespace",
+      "description": "A lightweight PDF reader.",
+      "extensions": [
+        ".pdf"
+      ],
+      "identity_hints": [
+        "portapad",
+        "Portapad"
+      ],
+      "appimage_prefixes": [
+        "Portapad"
+      ],
+      "repository": "brunonlinespace/portapad",
+      "mime_types": [
+        "application/pdf"
+      ],
+      "capabilities": {
+        "routing": true,
+        "open": true,
+        "create": false
+      },
+      "config_subdir": "portapad"
+    },
+    {
+      "id": "beespector-lite",
+      "name": "Beespector Lite",
+      "kind": "reader",
+      "publisher_id": "brunonlinespace",
+      "description": "Lightweight edition of the Beespector file-inspection utility.",
+      "extensions": [],
+      "identity_hints": [
+        "beespector-lite",
+        "beespector lite",
+        "beespectorlite",
+        "Beespector Lite"
+      ],
+      "appimage_prefixes": [
+        "Beespector-Lite",
+        "BeespectorLite"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": true,
+        "create": false
+      },
+      "config_subdir": "beespector-lite"
+    },
+    {
+      "id": "beespector",
+      "name": "Beespector",
+      "kind": "reader",
+      "publisher_id": "brunonlinespace",
+      "description": "Read-only binary, hexadecimal and file-inspection utility.",
+      "extensions": [],
+      "identity_hints": [
+        "beespector",
+        "Beespector"
+      ],
+      "appimage_prefixes": [
+        "Beespector"
+      ],
+      "repository": "brunonlinespace/beespector",
+      "capabilities": {
+        "routing": false,
+        "open": true,
+        "create": false
+      },
+      "config_subdir": "beespector"
+    },
+    {
+      "id": "linspectacles",
+      "name": "Linspectacles",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Linux Inspection Suite.",
+      "extensions": [],
+      "identity_hints": [
+        "linspectacles",
+        "linspectacles suite",
+        "Linspectacles",
+        "Linspectacles Suite",
+        "linspector-suite",
+        "linspector suite",
+        "linspector",
+        "Linspector Suite"
+      ],
+      "appimage_prefixes": [
+        "Linspectacles",
+        "Linspectacles-Suite",
+        "LinspectaclesSuite",
+        "Linspector-Suite",
+        "LinspectorSuite",
+        "Linspector"
+      ],
+      "repository": "linspectacles",
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "linspectacles"
+    },
+    {
+      "id": "marko-plus",
+      "name": "Marko Plus",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Managed-workspace Markdown application in the Plus family.",
+      "extensions": [],
+      "identity_hints": [
+        "marko-plus",
+        "marko plus",
+        "marko_plus",
+        "Marko Plus"
+      ],
+      "appimage_prefixes": [
+        "Marko-Plus",
+        "MarkoPlus",
+        "Marko Plus"
+      ],
+      "repository": "brunonlinespace/marko-plus",
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "marko-plus"
+    },
+    {
+      "id": "rico-plus",
+      "name": "Rico Plus",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Managed-workspace rich-text application in the Plus family.",
+      "extensions": [],
+      "identity_hints": [
+        "rico-plus",
+        "rico plus",
+        "rico_plus",
+        "Rico Plus"
+      ],
+      "appimage_prefixes": [
+        "Rico-Plus",
+        "RicoPlus",
+        "Rico Plus"
+      ],
+      "repository": "brunonlinespace/rico-plus",
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "rico-plus"
+    },
+    {
+      "id": "crawlindo",
+      "name": "Crawlindo",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Website crawler and download utility.",
+      "extensions": [],
+      "identity_hints": [
+        "crawlindo",
+        "Crawlindo"
+      ],
+      "appimage_prefixes": [
+        "Crawlindo"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "crawlindo",
+      "url_capabilities": {
+        "schemes": [
+          "http",
+          "https"
+        ],
+        "hosts": [],
+        "fallback": true
+      }
+    },
+    {
+      "id": "youlindo",
+      "name": "Youlindo",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Standalone video downloader.",
+      "extensions": [],
+      "identity_hints": [
+        "youlindo",
+        "Youlindo"
+      ],
+      "appimage_prefixes": [
+        "Youlindo"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "youlindo",
+      "url_capabilities": {
+        "schemes": [
+          "http",
+          "https"
+        ],
+        "hosts": [
+          "youtube.com",
+          "www.youtube.com",
+          "m.youtube.com",
+          "youtu.be"
+        ],
+        "fallback": false
+      }
+    },
+    {
+      "id": "sbookypad",
+      "name": "Sbookypad",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Bookmark analysis and cleanup utility.",
+      "extensions": [],
+      "identity_hints": [
+        "sbookypad",
+        "Sbookypad"
+      ],
+      "appimage_prefixes": [
+        "Sbookypad"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "sbookypad"
+    },
+    {
+      "id": "gitten",
+      "name": "gitten",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Git repository utility for the Pad family, now canonically identified as lowercase gitten.",
+      "extensions": [],
+      "identity_hints": [
+        "gitten",
+        "gitten-pad",
+        "gitten pad",
+        "gittenpad",
+        "Gitten Pad"
+      ],
+      "appimage_prefixes": [
+        "gitten",
+        "Gitten",
+        "Gitten-Pad",
+        "GittenPad"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "gitten"
+    },
+    {
+      "id": "python-lair",
+      "name": "Python Lair",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Python application and project utility.",
+      "extensions": [],
+      "identity_hints": [
+        "python-lair",
+        "python lair",
+        "pythonlair",
+        "Python Lair"
+      ],
+      "appimage_prefixes": [
+        "Python-Lair",
+        "PythonLair"
+      ],
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "python-lair"
+    },
+    {
+      "id": "store-pythoine",
+      "name": "Store Pythoine",
+      "kind": "extension",
+      "publisher_id": "brunonlinespace",
+      "description": "Optional on-demand catalogue companion for discovering and downloading Suite Pythoine components.",
+      "extensions": [],
+      "identity_hints": [
+        "store-pythoine",
+        "store pythoine",
+        "Store Pythoine"
+      ],
+      "appimage_prefixes": [
+        "Store-Pythoine",
+        "StorePythoine"
+      ],
+      "repository": "brunonlinespace/store-pythoine",
+      "capabilities": {
+        "routing": false,
+        "open": false,
+        "create": false
+      },
+      "config_subdir": "store-pythoine"
+    }
+  ]
+}
