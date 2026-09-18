@@ -473,14 +473,6 @@ to turn the Suite into an all-purpose desktop environment.
 
 ---
 
-# Repository
-
-**Suite Pythoine**
-
-[https://github.com/brunonlinespace/suite-pythoine](https://github.com/brunonlinespace/suite-pythoine)
-
----
-
 # Author
 
 **brunonlinespace (Bruno G. Machado)**
@@ -498,6 +490,61 @@ licence applicable to this repository.
 Individual applications distributed through or recognised by
 Suite Pythoine may have their own licensing information and remain
 independently maintained projects.
+
+---
+
+# Gallery
+
+**Suite Pythoine**
+
+<p align="center">
+  <img
+    src="Screenshots/Screenshot_20260918_122645.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_122649.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_122656.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+</p>
+
+
+**Integrated AppImage Builder**
+
+<p align="center">
+  <img
+    src="Screenshots/Screenshot_20260918_123029.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123052.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123056.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123124.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123127.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+</p>
 
 ---
 
