@@ -1,0 +1,2 @@
+# Exact resolved versions are recorded in the generated Suite Pythoine build lock.
+PyInstaller>=6.21,<7

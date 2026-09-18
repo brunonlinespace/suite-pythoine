@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.brunonlinespace.suite-pythoine</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Suite Pythoine</name>
+  <summary>Lightweight file editor hub for the brunonlinespace pad family</summary>
+  <description>
+    <p>Suite Pythoine installs, manages and launches brunonlinespace editors and routes supported documents to the appropriate loaded pad-family application.</p>
+  </description>
+  <launchable type="desktop-id">suite-pythoine.desktop</launchable>
+  <url type="homepage">https://github.com/brunonlinespace/suite-pythoine</url>
+  <url type="bugtracker">https://github.com/brunonlinespace/suite-pythoine/issues</url>
+  <provides>
+    <mediatype>text/plain</mediatype>
+    <mediatype>text/x-log</mediatype>
+    <mediatype>text/markdown</mediatype>
+    <mediatype>text/rtf</mediatype>
+    <mediatype>application/rtf</mediatype>
+    <mediatype>text/x-tex</mediatype>
+    <mediatype>text/x-bibtex</mediatype>
+    <mediatype>application/pdf</mediatype>
+    <mediatype>application/epub+zip</mediatype>
+    <mediatype>text/x-python</mediatype>
+    <mediatype>text/x-python3</mediatype>
+    <mediatype>application/x-shellscript</mediatype>
+    <mediatype>text/html</mediatype>
+    <mediatype>application/xhtml+xml</mediatype>
+    <mediatype>text/css</mediatype>
+    <mediatype>application/javascript</mediatype>
+    <mediatype>text/javascript</mediatype>
+    <mediatype>text/typescript</mediatype>
+    <mediatype>application/typescript</mediatype>
+  </provides>
+  <releases>
+    <release version="0.3.3" date="2026-09-16"/>
+    <release version="0.3.1" date="2026-08-16"/>
+    <release version="0.3.0" date="2026-08-10"/>
+    <release version="0.2.0" date="2026-08-08"/>
+  </releases>
+</component>

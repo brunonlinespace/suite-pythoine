@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Suite Pythoine
+GenericName=File Editor Hub
+Comment=Install, manage, launch and route files to the brunonlinespace pad family
+Exec=suite-pythoine %F
+Icon=suite-pythoine
+Terminal=false
+Categories=Utility;Office;Development;
+MimeType=text/plain;text/x-log;text/markdown;text/rtf;application/rtf;text/x-tex;text/x-bibtex;application/pdf;application/epub+zip;text/x-python;text/x-python3;application/x-shellscript;text/html;application/xhtml+xml;text/css;application/javascript;text/javascript;text/typescript;application/typescript;
+StartupNotify=false
+StartupWMClass=suite-pythoine
