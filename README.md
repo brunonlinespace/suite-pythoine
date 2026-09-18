@@ -74,6 +74,8 @@ the editor into an IDE.
 
 **Focused Markdown. Clear workflow.**
 
+[https://github.com/brunonlinespace/markopad](https://github.com/brunonlinespace/markopad)
+
 ### Marko Plus
 
 **Marko Plus** takes the Markopad editing experience and adds the shared
@@ -94,6 +96,8 @@ Markopad remains the focused standalone editor.
 
 Marko Plus is the workspace edition.
 
+[https://github.com/brunonlinespace/marko-plus](https://github.com/brunonlinespace/marko-plus)
+
 ---
 
 ## Ricopad & Rico Plus
@@ -108,6 +112,8 @@ lists, tables, colours, fonts, printing and persistent RTF structure.
 It is deliberately a specialist editor rather than a general-purpose
 office suite.
 
+[https://github.com/brunonlinespace/ricopad](https://github.com/brunonlinespace/ricopad)
+
 ### Rico Plus
 
 **Rico Plus** applies the same Plus workspace philosophy used by
@@ -118,6 +124,8 @@ workspace infrastructure descended from Python Lair.
 
 **Ricopad for the document.  
 Rico Plus for the workspace.**
+
+[https://github.com/brunonlinespace/rico-plus](https://github.com/brunonlinespace/rico-plus)
 
 ---
 
@@ -133,6 +141,8 @@ architecture.
 Nuxpad represents the lightweight-editor roots of the ecosystem:
 focused tools, restrained interfaces and minimal friction between
 opening a file and working on it.
+
+[https://github.com/brunonlinespace/nuxpad](https://github.com/brunonlinespace/nuxpad)
 
 ---
 
@@ -160,6 +170,8 @@ Marko Plus / Rico Plus
 Python Lair therefore remains both a Python-focused working environment
 and an architectural ancestor of the modern **Plus** applications.
 
+[https://github.com/brunonlinespace/python-lair](https://github.com/brunonlinespace/python-lair)
+
 ---
 
 ## Timblee Pad
@@ -175,6 +187,8 @@ Timblee Pad concentrates on formats such as:
 It follows the same principle as the other Pads: give a particular kind
 of file a focused application instead of making every editor responsible
 for everything.
+
+[https://github.com/brunonlinespace/timblee-pad](https://github.com/brunonlinespace/timblee-pad)
 
 ---
 
@@ -194,6 +208,8 @@ Portapad has evolved through experiments with:
 Its goal remains straightforward: make opening and reading a PDF quick
 and comfortable.
 
+[https://github.com/brunonlinespace/portapad](https://github.com/brunonlinespace/portapad)
+
 ---
 
 ## Beespector family
@@ -204,12 +220,16 @@ desktop interfaces.
 
 ### Beespector
 
-The fuller inspection-oriented application.
+The fuller hex inspection-oriented application with 2-file comparison capability.
+
+[https://github.com/brunonlinespace/beespector](https://github.com/brunonlinespace/beespector)
 
 ### Beespector Lite
 
-A lighter companion for users who want the essential workflow with less
+A lighter companion for users who want the essential 1-file hex reading workflow with less
 surrounding machinery.
+
+[https://github.com/brunonlinespace/beespector-lite](https://github.com/brunonlinespace/beespector-lite)
 
 Both retain the brunonlinespace preference for applications that remain
 understandable, portable and useful without requiring an enormous
@@ -283,24 +303,6 @@ Suite Pythoine
       ↓
 install / manage / launch / route files
 ```
-
----
-
-## LinSpectacles
-
-The Linux inspection family is developed as its own distinct project
-family while remaining compatible with the wider Pythoine ecosystem.
-
-**LinSpectacles**
-
-> **Expose. Explore. Explain.**
-
-LinSpectacles consists of specialist Linux inspection tools and applets
-designed around focused sources and focused outputs.
-
-The family can remain independently developed and distributed while
-Suite Pythoine provides a bridge for discovery, installation and
-launching.
 
 ---
 
@@ -413,6 +415,26 @@ job in front of the user.
 
 ---
 
+## LinSpectacles
+
+The Linux inspection family is developed as its own distinct project
+family while remaining compatible with the wider Pythoine ecosystem.
+
+**LinSpectacles**
+
+> **Expose. Explore. Explain.**
+
+LinSpectacles consists of specialist Linux inspection tools and applets
+designed around focused sources and focused outputs.
+
+The family can remain independently developed and distributed while
+Suite Pythoine provides a bridge for discovery, installation and
+launching.
+
+[https://github.com/linspectacles](https://github.com/linspectacles)
+
+---
+
 # A family, not a monolith
 
 Suite Pythoine is intentionally **not** an attempt to merge every
@@ -461,7 +483,7 @@ to turn the Suite into an all-purpose desktop environment.
 
 # Author
 
-**brunonlinespace**
+**brunonlinespace (Bruno G. Machado)**
 
 Suite Pythoine and the surrounding software family are independent
 open-source projects created under the brunonlinespace identity.
