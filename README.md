@@ -306,9 +306,9 @@ install / manage / launch / route files
 
 ---
 
-# File routing
+# OS-level File routing
 
-Suite Pythoine can route supported files to applications that understand
+Suite Pythoine can integrate with OS and route supported files to applications that understand
 them.
 
 The component catalogue describes application capabilities rather than
@@ -374,8 +374,66 @@ Depending on the component, applications may be available as:
 * AppImages
 * managed installations
 
+Suite Pythoine offers a very convenient way to build and store AppImage
+for most of brunonlinespace software, through a single shared source.
+
 A standalone application should not have to surrender its independence
 simply because it can also be managed by Suite Pythoine.
+
+---
+
+# Gallery
+
+**Suite Pythoine - Dashboard and application Details page**
+
+<p align="center">
+  <img
+    src="Screenshots/Screenshot_20260918_122645.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_122649.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_122656.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+</p>
+
+
+**Integrated AppImage Builder for brunonlinespace software**
+
+<p align="center">
+  <img
+    src="Screenshots/Screenshot_20260918_123029.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123052.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123056.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123124.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+  <img
+    src="Screenshots/Screenshot_20260918_123127.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+</p>
 
 ---
 
@@ -470,61 +528,6 @@ evolve as the wider application family grows.
 
 The project favours deliberate incremental development over attempting
 to turn the Suite into an all-purpose desktop environment.
-
----
-
-# Gallery
-
-**Suite Pythoine - Dashboard and application Details page**
-
-<p align="center">
-  <img
-    src="Screenshots/Screenshot_20260918_122645.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_122649.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_122656.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-</p>
-
-
-**Integrated AppImage Builder for brunonlinespace software**
-
-<p align="center">
-  <img
-    src="Screenshots/Screenshot_20260918_123029.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_123052.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_123056.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_123124.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-  <img
-    src="Screenshots/Screenshot_20260918_123127.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-</p>
 
 ---
 
