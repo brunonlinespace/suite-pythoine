@@ -473,29 +473,9 @@ to turn the Suite into an all-purpose desktop environment.
 
 ---
 
-# Author
-
-**brunonlinespace (Bruno G. Machado)**
-
-Suite Pythoine and the surrounding software family are independent
-open-source projects created under the brunonlinespace identity.
-
----
-
-# License
-
-See the `LICENSE` file included with the source distribution for the
-licence applicable to this repository.
-
-Individual applications distributed through or recognised by
-Suite Pythoine may have their own licensing information and remain
-independently maintained projects.
-
----
-
 # Gallery
 
-**Suite Pythoine**
+**Suite Pythoine - Dashboard and application Details page**
 
 <p align="center">
   <img
@@ -516,7 +496,7 @@ independently maintained projects.
 </p>
 
 
-**Integrated AppImage Builder**
+**Integrated AppImage Builder for brunonlinespace software**
 
 <p align="center">
   <img
@@ -545,6 +525,26 @@ independently maintained projects.
     width="280"
   >
 </p>
+
+---
+
+# Author
+
+**brunonlinespace (Bruno G. Machado)**
+
+Suite Pythoine and the surrounding software family are independent
+open-source projects created under the brunonlinespace identity.
+
+---
+
+# License
+
+See the `LICENSE` file included with the source distribution for the
+licence applicable to this repository.
+
+Individual applications distributed through or recognised by
+Suite Pythoine may have their own licensing information and remain
+independently maintained projects.
 
 ---
 
