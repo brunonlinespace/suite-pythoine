@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/brunonlinespace/suite-pythoine">
     <img
-      src="assets/suite-pythoine-master-1024.png"
+      src="suite-pythoine/assets/suite-pythoine-master-1024.png"
       alt="Suite Pythoine"
       width="280"
     >
