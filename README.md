@@ -523,6 +523,9 @@ common discovery, routing and management infrastructure.
 
 Suite Pythoine is under active development.
 
+Cross-OS support is a big development milestone to achieve. Nuxpad
+works both on Linux and Windows. Many other brunonlinespace apps will follow.
+
 Interfaces, catalogue capabilities and component support continue to
 evolve as the wider application family grows.
 
