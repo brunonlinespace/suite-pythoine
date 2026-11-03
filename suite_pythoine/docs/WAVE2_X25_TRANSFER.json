@@ -1,0 +1,217 @@
+{
+  "baseline_release": "1.0.0-x2.4",
+  "edits": {
+    "main.py": [
+      [
+        "from suite_pythoine.routing_chooser import",
+        "from suite_pythoine.routing.routing_chooser import"
+      ],
+      [
+        "from suite_pythoine.silent_dispatch import",
+        "from suite_pythoine.routing.silent_dispatch import"
+      ]
+    ],
+    "suite_pythoine/__init__.py": [
+      [
+        "1.0.0-x2.4",
+        "1.0.0-x2.5"
+      ]
+    ],
+    "suite_pythoine/app.py": [
+      [
+        "from .routing_index import",
+        "from .routing.routing_index import"
+      ],
+      [
+        "from .silent_dispatch import",
+        "from .routing.silent_dispatch import"
+      ],
+      [
+        "from .runtime_launcher import",
+        "from .runtime.runtime_launcher import"
+      ],
+      [
+        "from .runtime_paths import",
+        "from .runtime.runtime_paths import"
+      ]
+    ],
+    "suite_pythoine/appimage_build_wizard.py": [
+      [
+        "from .runtime_launcher import",
+        "from .runtime.runtime_launcher import"
+      ]
+    ],
+    "suite_pythoine/install_wizard.py": [
+      [
+        "from .runtime_launcher import",
+        "from .runtime.runtime_launcher import"
+      ]
+    ],
+    "suite_pythoine/recovery_restore_wizard.py": [
+      [
+        "from .runtime_launcher import",
+        "from .runtime.runtime_launcher import"
+      ]
+    ],
+    "suite_pythoine/routing_chooser.py": [
+      [
+        "from . import APP_NAME, __version__",
+        "from .. import APP_NAME, __version__"
+      ],
+      [
+        "from .ui_titles import app_dialog_title",
+        "from ..ui_titles import app_dialog_title"
+      ]
+    ],
+    "suite_pythoine/routing_index.py": [
+      [
+        "from .catalogue.",
+        "from ..catalogue."
+      ]
+    ],
+    "suite_pythoine/runtime_paths.py": [
+      [
+        "from .storage_layout import",
+        "from ..storage_layout import"
+      ]
+    ],
+    "suite_pythoine/self_bootstrap.py": [
+      [
+        "from .routing_index import",
+        "from .routing.routing_index import"
+      ],
+      [
+        "from .silent_dispatch import",
+        "from .routing.silent_dispatch import"
+      ]
+    ],
+    "suite_pythoine/self_restore.py": [
+      [
+        "from .runtime_launcher import",
+        "from .runtime.runtime_launcher import"
+      ]
+    ],
+    "suite_pythoine/silent_dispatch.py": [
+      [
+        "from .catalogue.",
+        "from ..catalogue."
+      ],
+      [
+        "from .config import",
+        "from ..config import"
+      ],
+      [
+        "from .registry import",
+        "from ..registry import"
+      ],
+      [
+        "from .storage_layout import",
+        "from ..storage_layout import"
+      ],
+      [
+        "from .registry_retirement import",
+        "from ..registry_retirement import"
+      ]
+    ],
+    "suite_pythoine/ui/dialogs/preferences.py": [
+      [
+        "from ...silent_dispatch import",
+        "from ...routing.silent_dispatch import"
+      ],
+      [
+        "from ...runtime_paths import",
+        "from ...runtime.runtime_paths import"
+      ]
+    ]
+  },
+  "immutable_root_readme": "392895da769ac770766a7338081f50be349e7af72892682758f26fe94d23ea95",
+  "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "moves": {
+    "suite_pythoine/routing_chooser.py": "suite_pythoine/routing/routing_chooser.py",
+    "suite_pythoine/routing_index.py": "suite_pythoine/routing/routing_index.py",
+    "suite_pythoine/runtime_launcher.py": "suite_pythoine/runtime/runtime_launcher.py",
+    "suite_pythoine/runtime_paths.py": "suite_pythoine/runtime/runtime_paths.py",
+    "suite_pythoine/silent_dispatch.py": "suite_pythoine/routing/silent_dispatch.py"
+  },
+  "new_production_files": [
+    "suite_pythoine/routing/__init__.py",
+    "suite_pythoine/runtime/__init__.py"
+  ],
+  "original_sha256": {
+    "main.py": "6bb402740c0af72a208c39f4595dc519629234a0ebf822e29783562e56f2f374",
+    "suite_pythoine/__init__.py": "f67c0c182e25c3197e29f48b6932f97f927583df52103c237bb260775186808e",
+    "suite_pythoine/app.py": "e37011ff27f7c3629404f74c914903e68c2f44a1020d586d3730c6bd4a0a0f5d",
+    "suite_pythoine/appimage_build_wizard.py": "8e635800be51a572e5f423a5b12c4c34a1dc1ac9111da3b21155e47efbdd7219",
+    "suite_pythoine/appimage_inspection.py": "b014f9a366ed6f9c2890a66f79bd3a7e4f2184c03df2b5902755503e3e01d448",
+    "suite_pythoine/appimage_wizard.py": "30cc1d93cecd03815d86de742797476e339314f94903b0fb634d7419d8cad0c8",
+    "suite_pythoine/asset_removal.py": "c09283c8c6171057e0b2cdcda963829fae848784745748c0bd995e17dc107329",
+    "suite_pythoine/catalogue/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "suite_pythoine/catalogue/component_catalog.py": "00108bef483d3ae7218f284a9a3973c71b0db7aefaccef24ee51744580dac93f",
+    "suite_pythoine/catalogue/component_policy.py": "91aeb7d848beeea4af4ab9f370dd303cfbfd7fac9a5920ffbb7b423c030ab8d1",
+    "suite_pythoine/config.py": "2b992d3a18d00837daf2e47b43731da19da075f450d519b83ce20ee303850ceb",
+    "suite_pythoine/developer/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "suite_pythoine/developer/developer_archive.py": "ab11629a9e68cadda8b8c16963c48c270aa5c175a07c439e80b0b234b9b017d2",
+    "suite_pythoine/developer/developer_intake.py": "65e2a752347532af48c84326cc2e3da1da8e22807f02b18a325d4448ffe8d947",
+    "suite_pythoine/developer/developer_intake_vault.py": "9b3af996dd900485e3ac890be461986c89fdeb5a2362aeeba86ae408b780e75c",
+    "suite_pythoine/developer/developer_policy.py": "316f74a639d0d0300201338d028bd12251152b928280f64e617215b29e30283e",
+    "suite_pythoine/editor_watcher.py": "46d12fb7dcb35bf4752653f57d0056d163e8ae0f08aa48188031d3d080460e42",
+    "suite_pythoine/gui_errors.py": "bb0640c8f8bce19722055177fbf7188b6fcfcfb416269535f9cbc1026018abca",
+    "suite_pythoine/install_inspection.py": "5e02028c4f93ef8d810e81efec68d3b5f441b9f3360f6ac527dcd59ae22a4f06",
+    "suite_pythoine/install_wizard.py": "126f58f5b010c422b0eb3c42474919f7a9f268ebd583f5b6cbf09fe2152e4e04",
+    "suite_pythoine/installation_state.py": "f014818e0706dfdefe129f4eda54592c5fe2772dc18be5ebff84d1672f85ea19",
+    "suite_pythoine/installer.py": "d3bab55187892e68b65700c5ed5092ebe292afdeb1c222fa68399f02bb586da3",
+    "suite_pythoine/migration_wizard.py": "ac0e798f07f39c0ea1cc08f91be5cb9fc79227494347ec8723c7154d9d234b5e",
+    "suite_pythoine/operation_ui.py": "de924e66ed6b487d1737dc6efd092a351c00d39bdf2b4e666e62887d5e00fb19",
+    "suite_pythoine/perf_trace.py": "617d61d65a4e6626c1803db5a379d158ac552e405e82d5ef383259f69674c355",
+    "suite_pythoine/prune_policy.py": "91b0c15cbc9f456923aac99aa19bdca08457b7bc9088204d34ba0bd05597e8d2",
+    "suite_pythoine/purge_assets.py": "1d2f19b2c43bf2510f892851e76b8e2ca0f23c14883bf01ec88c0c016e1370ad",
+    "suite_pythoine/purge_wizard.py": "2d18d849fdce23f704069904130aca1f615ade2f1f4f1050a2fdaa598d3f843a",
+    "suite_pythoine/recovery.py": "ef6022441d845a8c489f1c798fedb2cca1787e17514bf59ce12a9da2f9cb7c5b",
+    "suite_pythoine/recovery_restore_wizard.py": "d4e2af86e68556d5116e1b77183284e77a7ba63561f41168e7971aadd5e0eada",
+    "suite_pythoine/registry.py": "ab1517d47f2f6f35c955de04307705844bd0d1a4ba789c6b973217e3c6605f73",
+    "suite_pythoine/registry_retirement.py": "08f5d66eb7ab05f186939d1f18959a5de930736da183f7f21557e05c1d490a6f",
+    "suite_pythoine/root_transition.py": "04088ce4be6c8c1fd087e28ba9f749bf3c94d58e71680d09eacec015efa9b0f5",
+    "suite_pythoine/routing_chooser.py": "f6b339e3b789225bbda263d89b17a0663d25e3950139bfad26285f12e9633c4b",
+    "suite_pythoine/routing_index.py": "204916a0fae14544a190cfc169f9995f7101ad88ff30e9c52cfbab689821a7b9",
+    "suite_pythoine/runtime_launcher.py": "1d360644dd088f138ce2ebbeabc2735c22e026991d9e8a089f3a8464f36b2ffd",
+    "suite_pythoine/runtime_paths.py": "a53ee3056fb7f2367000db6db793d15d01149820a010cb32cf2752bc3dd724b5",
+    "suite_pythoine/self_bootstrap.py": "72a689f3278ff1b7e62b658a714599183c8aaaabdcc6be1113c31285149814fb",
+    "suite_pythoine/self_restore.py": "1a873f9d8516f35c07bfa1c3836d7bd2286f61404166ce070183006bbd0cd382",
+    "suite_pythoine/self_update.py": "d8d3a19c0ceee21e3d59496aa4f38cea1d5fc0d5ee8866b565349af4c5069f4f",
+    "suite_pythoine/silent_dispatch.py": "fadc64dac7f08cafa2a76ce7f62d06606146e524e0211ad7c380d6b09482644c",
+    "suite_pythoine/storage_layout.py": "5310804ae5cc817ae0df358168e1cebd93df4b67a081e74c97dcf5299fd169e4",
+    "suite_pythoine/storage_migration.py": "3648d0f4941cc7262b9661008e4a6a64d767f2ce831a177928e19d3a8a57c2a6",
+    "suite_pythoine/store/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "suite_pythoine/store/store_bridge.py": "ebda2a34fa34be937684c04cf0181059bf6b1cac1f3ce662fb7a90450b79d1a2",
+    "suite_pythoine/store/store_content.py": "1680417a6bd7427b0615660328027823bfc35fbef075826546542328839cef3b",
+    "suite_pythoine/suite_self_restore_worker.py": "f70892f10457706b6ecb4870875a88cb41c0e4c333b68b918167cfa4cfc56e96",
+    "suite_pythoine/suite_uninstall.py": "555d0bdcf97489503368c45291b37a16153ee4ea0f6cca644cfc027b9aaafb02",
+    "suite_pythoine/suite_uninstall_worker.py": "11349c8dbefd6c02e3ca25dd09fd8ab791abd669b6a38908cf8f4a5e61a04488",
+    "suite_pythoine/ui/__init__.py": "79009b3b60314d3d1c9f9f916a00947a96a97502e40c61bb8a27b0dde4d88e49",
+    "suite_pythoine/ui/diagnostic_helpers.py": "050c2ca1a36bd0f78bef25ee54eac8df41bc6cf3454a10c76df824db68a1f389",
+    "suite_pythoine/ui/dialogs/__init__.py": "8409f31413dd4602f228bfad3d349071747d2908c5700c0b2ab7659f95dbe751",
+    "suite_pythoine/ui/dialogs/preferences.py": "0ef1773673c461c94c07ef62081a9a91bd6b465603147cae0518e4c3e240bf82",
+    "suite_pythoine/ui/dialogs/quick_tour.py": "f4248a55b8adf0edee010a323dc1d4628a1cfd0a68dcfdb419b89c7027acf2a3",
+    "suite_pythoine/ui/dialogs/shortcuts_dialog.py": "e4330c5aeca3593a6b7373088a714c2cc1d8a1ff1b713efcfb8d30905f24a474",
+    "suite_pythoine/ui/helpers.py": "8c319f7195d7ab7cb00af6435f60534261f0f2febf209d24efa9fdb13ed6a1b7",
+    "suite_pythoine/ui/pages/__init__.py": "81b7ac0c015fbb4298691167ffe366c2fbd07a311999e73b56508309b2305253",
+    "suite_pythoine/ui/pages/application.py": "72a7ed7a366a2b0cbb08682b15fbdd19e0ed4874c1874adaa3b54931eee343c5",
+    "suite_pythoine/ui/pages/installed_applications.py": "1db383d0b033f30184d3a564ced97c018d9c818bf2088512424a8960aea41fb2",
+    "suite_pythoine/ui/pages/store_catalogue.py": "2b90bcecbd906a921e4bdfd7c97db3111021ca4b411401f0b6968a751d802e96",
+    "suite_pythoine/ui/pages/version_history_page.py": "0aa11b17817c11c432f3bc5e5a685b4862040a2939e45e30fc4932b0e0d1e26b",
+    "suite_pythoine/ui/shell/__init__.py": "4a61e9a96d5db2502c51ea442a35d154eb2d250f6b5f0de6d6f83f1e02b53841",
+    "suite_pythoine/ui/shell/dashboard.py": "6d5c47556566f7bd655b0851c7f40ec1779d3459efa71632f009677ee20d80fa",
+    "suite_pythoine/ui/shell/dashboard_model.py": "6671f6a2116727da5e4b5bd76ef9fecfd938e63ecb63fce4d373ecec3bea4d48",
+    "suite_pythoine/ui/shell/sidebar_launcher.py": "19efdd2fde4073ac1646571455b8ac966b52bc8416aa6a0c426169e08b230d25",
+    "suite_pythoine/ui/shell/sidebar_search.py": "291d3301c95c0815f310650e240e7fd0f5a5d72eed50b5b382e3e3408759e295",
+    "suite_pythoine/ui/shell/suite_theme.py": "880f77b11d4e8d02cc46400d4f95b7ba136f3009be80bf95b45b43c583b65e15",
+    "suite_pythoine/ui/widgets/__init__.py": "bb2e85ae529780b0156f90ad57bc80a7860fa70b5f4c3814db415668b97288fe",
+    "suite_pythoine/ui/widgets/inventory.py": "fe17f8e1473e9cef2b4503958e55d64856f1464381aab0ecf1b1c4ca83403501",
+    "suite_pythoine/ui/widgets/prune.py": "ac5c95c945fc48a49c471a82d1b1427f3f6623cf1040c425341b67fcffd39a5e",
+    "suite_pythoine/ui_titles.py": "23fbf126cdec44ac5ddf08c897c4a25ff0b54871e98c52a28fa12ae40281b705",
+    "suite_pythoine/version_history.py": "f758e7928bcd6a8aefed610f54d5c7014c1eff8eab0bf24a2af51039db39850b",
+    "suite_pythoine/version_management.py": "a1aca2487a0f1762db02c00c11d278d1abf6f50da9c38058b20eb1f8a6f3e5ce",
+    "suite_pythoine/versioning.py": "3f8b48a2957556b618bafdcb939a8210a15574ecdb6e4d72defad7da49b1a915"
+  },
+  "release": "1.0.0-x2.5"
+}

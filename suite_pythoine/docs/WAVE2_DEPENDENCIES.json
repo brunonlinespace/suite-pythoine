@@ -1,0 +1,1249 @@
+{
+  "schema": 1,
+  "basis": "static Python AST, no module execution; dynamic/resource paths are not fully resolved",
+  "modules": [
+    {
+      "module": "main",
+      "path": "main.py",
+      "sha256": "fb9773d61a63cb1a4bb54172cfa708e0ffa4c3743e23b35206a155fabb9dfe95",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.app",
+        "suite_pythoine.developer_policy",
+        "suite_pythoine.perf_trace",
+        "suite_pythoine.routing_chooser",
+        "suite_pythoine.self_update",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.store_bridge"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine",
+      "path": "suite_pythoine/__init__.py",
+      "sha256": "d1c6bcad7a4201f63e0dbf420d8f0ac83cd0f899215905f873ad7ff612c57420",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.perf_trace",
+        "suite_pythoine.quick_tour",
+        "suite_pythoine.routing_chooser",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.pages.installed_applications",
+        "suite_pythoine.ui.pages.version_history_page",
+        "suite_pythoine.ui_titles"
+      ]
+    },
+    {
+      "module": "suite_pythoine.app",
+      "path": "suite_pythoine/app.py",
+      "sha256": "799f5f7d32225bb27df0f46964e0371fbdd461eb2c2c1b7c8c70533438edc94d",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.asset_removal",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.config",
+        "suite_pythoine.dashboard",
+        "suite_pythoine.developer_archive",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.developer_intake_vault",
+        "suite_pythoine.developer_policy",
+        "suite_pythoine.editor_watcher",
+        "suite_pythoine.gui_errors",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.migration_wizard",
+        "suite_pythoine.operation_ui",
+        "suite_pythoine.perf_trace",
+        "suite_pythoine.prune_policy",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.quick_tour",
+        "suite_pythoine.recovery",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.registry",
+        "suite_pythoine.registry_retirement",
+        "suite_pythoine.root_transition",
+        "suite_pythoine.routing_index",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.runtime_paths",
+        "suite_pythoine.self_restore",
+        "suite_pythoine.shortcuts_dialog",
+        "suite_pythoine.sidebar_launcher",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.store_content",
+        "suite_pythoine.suite_theme",
+        "suite_pythoine.suite_uninstall",
+        "suite_pythoine.ui.diagnostic_helpers",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.helpers",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.installed_applications",
+        "suite_pythoine.ui.pages.store_catalogue",
+        "suite_pythoine.ui.pages.version_history_page",
+        "suite_pythoine.ui.widgets.prune",
+        "suite_pythoine.ui_titles",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.installed_applications",
+        "suite_pythoine.ui.pages.store_catalogue",
+        "suite_pythoine.ui.pages.version_history_page"
+      ]
+    },
+    {
+      "module": "suite_pythoine.appimage_build_wizard",
+      "path": "suite_pythoine/appimage_build_wizard.py",
+      "sha256": "8e635800be51a572e5f423a5b12c4c34a1dc1ac9111da3b21155e47efbdd7219",
+      "imports": [
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.config",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.ui_titles",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.appimage_inspection",
+      "path": "suite_pythoine/appimage_inspection.py",
+      "sha256": "80060dfd202ddbf9a7366175859ae5c8c2c2f52e808c352b4107e6199792d727",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.installer",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.store_bridge"
+      ]
+    },
+    {
+      "module": "suite_pythoine.appimage_wizard",
+      "path": "suite_pythoine/appimage_wizard.py",
+      "sha256": "37ee6df031bbbd381b89498a307deb31edff15a689b01e5f5d1144dfa9c33784",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.config",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.ui_titles",
+        "suite_pythoine.version_management",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.asset_removal",
+      "path": "suite_pythoine/asset_removal.py",
+      "sha256": "c09283c8c6171057e0b2cdcda963829fae848784745748c0bd995e17dc107329",
+      "imports": [
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.purge_assets",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.component_catalog",
+      "path": "suite_pythoine/component_catalog.py",
+      "sha256": "25e866f18f775229dd142e5b7444f845a5e5c34854d62235c4a7864faa571398",
+      "imports": [],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.dashboard",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.registry",
+        "suite_pythoine.routing_index",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.store_content",
+        "suite_pythoine.suite_uninstall",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.store_catalogue",
+        "suite_pythoine.ui.pages.version_history_page"
+      ]
+    },
+    {
+      "module": "suite_pythoine.component_policy",
+      "path": "suite_pythoine/component_policy.py",
+      "sha256": "91aeb7d848beeea4af4ab9f370dd303cfbfd7fac9a5920ffbb7b423c030ab8d1",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.dashboard",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.registry",
+        "suite_pythoine.routing_index",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.version_history_page"
+      ]
+    },
+    {
+      "module": "suite_pythoine.config",
+      "path": "suite_pythoine/config.py",
+      "sha256": "2b992d3a18d00837daf2e47b43731da19da075f450d519b83ce20ee303850ceb",
+      "imports": [
+        "suite_pythoine.registry_retirement",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.migration_wizard",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.dashboard",
+      "path": "suite_pythoine/dashboard.py",
+      "sha256": "af5e51668ae33997aa2ee6add8b64e8868a6c275f6aaf94cc47a2448e24fd150",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.dashboard_model",
+        "suite_pythoine.perf_trace",
+        "suite_pythoine.registry"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.dashboard_model",
+      "path": "suite_pythoine/dashboard_model.py",
+      "sha256": "f3ad556a31ec88e813e98d0b0214ff11dd9d80c111e65dc484a39b01ac64775d",
+      "imports": [
+        "suite_pythoine.registry"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.dashboard"
+      ]
+    },
+    {
+      "module": "suite_pythoine.developer_archive",
+      "path": "suite_pythoine/developer_archive.py",
+      "sha256": "f76cbdd4a4bead31d89ebcff6f9c80fceb015e246629c5bfff0d0e1f4e6ed2e4",
+      "imports": [
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.installer",
+        "suite_pythoine.recovery",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.developer_intake",
+      "path": "suite_pythoine/developer_intake.py",
+      "sha256": "d6dd878ccf49a618876145c191d807941c3158d65f5fe8c8ab211e973320c761",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.developer_intake_vault",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.installer",
+        "suite_pythoine.operation_ui",
+        "suite_pythoine.registry",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.developer_intake_vault",
+      "path": "suite_pythoine/developer_intake_vault.py",
+      "sha256": "9b3af996dd900485e3ac890be461986c89fdeb5a2362aeeba86ae408b780e75c",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.developer_intake"
+      ]
+    },
+    {
+      "module": "suite_pythoine.developer_policy",
+      "path": "suite_pythoine/developer_policy.py",
+      "sha256": "316f74a639d0d0300201338d028bd12251152b928280f64e617215b29e30283e",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.editor_watcher",
+      "path": "suite_pythoine/editor_watcher.py",
+      "sha256": "46d12fb7dcb35bf4752653f57d0056d163e8ae0f08aa48188031d3d080460e42",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.gui_errors",
+      "path": "suite_pythoine/gui_errors.py",
+      "sha256": "bb0640c8f8bce19722055177fbf7188b6fcfcfb416269535f9cbc1026018abca",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.install_inspection",
+      "path": "suite_pythoine/install_inspection.py",
+      "sha256": "5e02028c4f93ef8d810e81efec68d3b5f441b9f3360f6ac527dcd59ae22a4f06",
+      "imports": [
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.developer_archive",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.recovery",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.store_bridge"
+      ]
+    },
+    {
+      "module": "suite_pythoine.install_wizard",
+      "path": "suite_pythoine/install_wizard.py",
+      "sha256": "45d1e0f5d7212a927d118b81f1830ce83b5ba2189e2cc378357b25e407f04dad",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.config",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.ui_titles",
+        "suite_pythoine.version_management",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.self_restore"
+      ]
+    },
+    {
+      "module": "suite_pythoine.installation_state",
+      "path": "suite_pythoine/installation_state.py",
+      "sha256": "f43ca48b3230cab03f9036c90ea119c3d90d597674541cb4f1fd10835562dd33",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.installer",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.asset_removal",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.registry",
+        "suite_pythoine.root_transition",
+        "suite_pythoine.self_bootstrap",
+        "suite_pythoine.self_update",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.suite_uninstall"
+      ]
+    },
+    {
+      "module": "suite_pythoine.installer",
+      "path": "suite_pythoine/installer.py",
+      "sha256": "ac7b9e29f62c52ea41b9577c8bdc22cc4404a6e2182c1fe481d9d32ac304a0c0",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.asset_removal",
+        "suite_pythoine.developer_archive",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.purge_assets",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.recovery",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.root_transition",
+        "suite_pythoine.self_restore",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.suite_uninstall",
+        "suite_pythoine.ui.pages.version_history_page"
+      ]
+    },
+    {
+      "module": "suite_pythoine.migration_wizard",
+      "path": "suite_pythoine/migration_wizard.py",
+      "sha256": "ac0e798f07f39c0ea1cc08f91be5cb9fc79227494347ec8723c7154d9d234b5e",
+      "imports": [
+        "suite_pythoine.config",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.operation_ui",
+      "path": "suite_pythoine/operation_ui.py",
+      "sha256": "de924e66ed6b487d1737dc6efd092a351c00d39bdf2b4e666e62887d5e00fb19",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.ui.widgets.prune"
+      ]
+    },
+    {
+      "module": "suite_pythoine.perf_trace",
+      "path": "suite_pythoine/perf_trace.py",
+      "sha256": "617d61d65a4e6626c1803db5a379d158ac552e405e82d5ef383259f69674c355",
+      "imports": [
+        "suite_pythoine"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.app",
+        "suite_pythoine.dashboard",
+        "suite_pythoine.registry"
+      ]
+    },
+    {
+      "module": "suite_pythoine.prune_policy",
+      "path": "suite_pythoine/prune_policy.py",
+      "sha256": "91b0c15cbc9f456923aac99aa19bdca08457b7bc9088204d34ba0bd05597e8d2",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.purge_assets",
+      "path": "suite_pythoine/purge_assets.py",
+      "sha256": "1d2f19b2c43bf2510f892851e76b8e2ca0f23c14883bf01ec88c0c016e1370ad",
+      "imports": [
+        "suite_pythoine.installer",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.asset_removal",
+        "suite_pythoine.purge_wizard"
+      ]
+    },
+    {
+      "module": "suite_pythoine.purge_wizard",
+      "path": "suite_pythoine/purge_wizard.py",
+      "sha256": "f50e6204cbdaec6227e1d764dc33467c37e8526068afa1d45f78be883b571ce2",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.config",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.purge_assets",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.quick_tour",
+      "path": "suite_pythoine/quick_tour.py",
+      "sha256": "fb4d9b30196fd13731f92b5d7edc522cb3bd085c886109af9e4480815f044cc5",
+      "imports": [
+        "suite_pythoine"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.recovery",
+      "path": "suite_pythoine/recovery.py",
+      "sha256": "ef6022441d845a8c489f1c798fedb2cca1787e17514bf59ce12a9da2f9cb7c5b",
+      "imports": [
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.developer_archive",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.self_restore",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.version_history_page",
+        "suite_pythoine.version_history"
+      ]
+    },
+    {
+      "module": "suite_pythoine.recovery_restore_wizard",
+      "path": "suite_pythoine/recovery_restore_wizard.py",
+      "sha256": "d4e2af86e68556d5116e1b77183284e77a7ba63561f41168e7971aadd5e0eada",
+      "imports": [
+        "suite_pythoine.config",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installer",
+        "suite_pythoine.recovery",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.registry",
+      "path": "suite_pythoine/registry.py",
+      "sha256": "79ff12bc8601bf1ec153d12ee070e30d3fb1779d5de0acd7eb0e52b39035215d",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.perf_trace",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.dashboard",
+        "suite_pythoine.dashboard_model",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.recovery",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.version_history_page",
+        "suite_pythoine.ui.widgets.prune",
+        "suite_pythoine.version_history"
+      ]
+    },
+    {
+      "module": "suite_pythoine.registry_retirement",
+      "path": "suite_pythoine/registry_retirement.py",
+      "sha256": "08f5d66eb7ab05f186939d1f18959a5de930736da183f7f21557e05c1d490a6f",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.config",
+        "suite_pythoine.silent_dispatch"
+      ]
+    },
+    {
+      "module": "suite_pythoine.root_transition",
+      "path": "suite_pythoine/root_transition.py",
+      "sha256": "04088ce4be6c8c1fd087e28ba9f749bf3c94d58e71680d09eacec015efa9b0f5",
+      "imports": [
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.routing_chooser",
+      "path": "suite_pythoine/routing_chooser.py",
+      "sha256": "f6b339e3b789225bbda263d89b17a0663d25e3950139bfad26285f12e9633c4b",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main"
+      ]
+    },
+    {
+      "module": "suite_pythoine.routing_index",
+      "path": "suite_pythoine/routing_index.py",
+      "sha256": "14f0543cf9707afbf6ecdfcd2593db7d5efbb3e1205e10cd4a9a96def5c8a542",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.self_bootstrap",
+        "suite_pythoine.silent_dispatch"
+      ]
+    },
+    {
+      "module": "suite_pythoine.runtime_launcher",
+      "path": "suite_pythoine/runtime_launcher.py",
+      "sha256": "1d360644dd088f138ce2ebbeabc2735c22e026991d9e8a089f3a8464f36b2ffd",
+      "imports": [
+        "suite_pythoine.runtime_paths"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.self_restore"
+      ]
+    },
+    {
+      "module": "suite_pythoine.runtime_paths",
+      "path": "suite_pythoine/runtime_paths.py",
+      "sha256": "a53ee3056fb7f2367000db6db793d15d01149820a010cb32cf2752bc3dd724b5",
+      "imports": [
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.self_bootstrap",
+      "path": "suite_pythoine/self_bootstrap.py",
+      "sha256": "72a689f3278ff1b7e62b658a714599183c8aaaabdcc6be1113c31285149814fb",
+      "imports": [
+        "suite_pythoine.installation_state",
+        "suite_pythoine.routing_index",
+        "suite_pythoine.silent_dispatch"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.self_restore",
+      "path": "suite_pythoine/self_restore.py",
+      "sha256": "1a873f9d8516f35c07bfa1c3836d7bd2286f61404166ce070183006bbd0cd382",
+      "imports": [
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installer",
+        "suite_pythoine.recovery",
+        "suite_pythoine.runtime_launcher",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.self_update",
+      "path": "suite_pythoine/self_update.py",
+      "sha256": "d8d3a19c0ceee21e3d59496aa4f38cea1d5fc0d5ee8866b565349af4c5069f4f",
+      "imports": [
+        "suite_pythoine.installation_state",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main"
+      ]
+    },
+    {
+      "module": "suite_pythoine.shortcuts_dialog",
+      "path": "suite_pythoine/shortcuts_dialog.py",
+      "sha256": "e4330c5aeca3593a6b7373088a714c2cc1d8a1ff1b713efcfb8d30905f24a474",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.sidebar_launcher",
+      "path": "suite_pythoine/sidebar_launcher.py",
+      "sha256": "19efdd2fde4073ac1646571455b8ac966b52bc8416aa6a0c426169e08b230d25",
+      "imports": [
+        "suite_pythoine.sidebar_search"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.sidebar_search",
+      "path": "suite_pythoine/sidebar_search.py",
+      "sha256": "291d3301c95c0815f310650e240e7fd0f5a5d72eed50b5b382e3e3408759e295",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.sidebar_launcher"
+      ]
+    },
+    {
+      "module": "suite_pythoine.silent_dispatch",
+      "path": "suite_pythoine/silent_dispatch.py",
+      "sha256": "8d88653955d1895a9fb000d28ebe8275ec243173ad5e0200a40b9671dd956153",
+      "imports": [
+        "suite_pythoine.component_policy",
+        "suite_pythoine.config",
+        "suite_pythoine.registry",
+        "suite_pythoine.registry_retirement",
+        "suite_pythoine.routing_index",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.app",
+        "suite_pythoine.routing_chooser",
+        "suite_pythoine.self_bootstrap",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.storage_layout",
+      "path": "suite_pythoine/storage_layout.py",
+      "sha256": "5310804ae5cc817ae0df358168e1cebd93df4b67a081e74c97dcf5299fd169e4",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.asset_removal",
+        "suite_pythoine.config",
+        "suite_pythoine.developer_archive",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.purge_assets",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.root_transition",
+        "suite_pythoine.runtime_paths",
+        "suite_pythoine.self_update",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.ui.dialogs.preferences",
+        "suite_pythoine.ui.pages.application",
+        "suite_pythoine.ui.pages.version_history_page",
+        "suite_pythoine.version_history"
+      ]
+    },
+    {
+      "module": "suite_pythoine.storage_migration",
+      "path": "suite_pythoine/storage_migration.py",
+      "sha256": "3648d0f4941cc7262b9661008e4a6a64d767f2ce831a177928e19d3a8a57c2a6",
+      "imports": [
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.migration_wizard"
+      ]
+    },
+    {
+      "module": "suite_pythoine.store_bridge",
+      "path": "suite_pythoine/store_bridge.py",
+      "sha256": "f829866279d626620eff8d3b3fe5380ec9a6a53cc49fb7cd1fd5a1b953da0249",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.config",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "main",
+        "suite_pythoine.suite_uninstall"
+      ]
+    },
+    {
+      "module": "suite_pythoine.store_content",
+      "path": "suite_pythoine/store_content.py",
+      "sha256": "0a5ae87deb49d05fa1216fa9eb695b460ebac058fa71ae99dcfdec421dd141ef",
+      "imports": [
+        "suite_pythoine.component_catalog"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.ui.pages.store_catalogue"
+      ]
+    },
+    {
+      "module": "suite_pythoine.suite_self_restore_worker",
+      "path": "suite_pythoine/suite_self_restore_worker.py",
+      "sha256": "f70892f10457706b6ecb4870875a88cb41c0e4c333b68b918167cfa4cfc56e96",
+      "imports": [],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.suite_theme",
+      "path": "suite_pythoine/suite_theme.py",
+      "sha256": "880f77b11d4e8d02cc46400d4f95b7ba136f3009be80bf95b45b43c583b65e15",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.suite_uninstall",
+      "path": "suite_pythoine/suite_uninstall.py",
+      "sha256": "8eb09f7157bbae4d42d4eff2a11718db8a06137255f228cd19576700af245711",
+      "imports": [
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.store_bridge",
+        "suite_pythoine.suite_uninstall_worker"
+      ],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.suite_uninstall_worker",
+      "path": "suite_pythoine/suite_uninstall_worker.py",
+      "sha256": "11349c8dbefd6c02e3ca25dd09fd8ab791abd669b6a38908cf8f4a5e61a04488",
+      "imports": [],
+      "uses___file__": true,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.suite_uninstall"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui",
+      "path": "suite_pythoine/ui/__init__.py",
+      "sha256": "79009b3b60314d3d1c9f9f916a00947a96a97502e40c61bb8a27b0dde4d88e49",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.ui.diagnostic_helpers",
+      "path": "suite_pythoine/ui/diagnostic_helpers.py",
+      "sha256": "050c2ca1a36bd0f78bef25ee54eac8df41bc6cf3454a10c76df824db68a1f389",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.dialogs",
+      "path": "suite_pythoine/ui/dialogs/__init__.py",
+      "sha256": "8409f31413dd4602f228bfad3d349071747d2908c5700c0b2ab7659f95dbe751",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.ui.dialogs.preferences",
+      "path": "suite_pythoine/ui/dialogs/preferences.py",
+      "sha256": "c015ff0aa2e292ec9a2e5214ca520cb003b72ee124372e73fa7b4edf498f6fb3",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.config",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.runtime_paths",
+        "suite_pythoine.silent_dispatch",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.ui.diagnostic_helpers",
+        "suite_pythoine.ui_titles"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.helpers",
+      "path": "suite_pythoine/ui/helpers.py",
+      "sha256": "8c319f7195d7ab7cb00af6435f60534261f0f2febf209d24efa9fdb13ed6a1b7",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.ui.pages.installed_applications",
+        "suite_pythoine.ui.pages.store_catalogue"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.pages",
+      "path": "suite_pythoine/ui/pages/__init__.py",
+      "sha256": "81b7ac0c015fbb4298691167ffe366c2fbd07a311999e73b56508309b2305253",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.ui.pages.application",
+      "path": "suite_pythoine/ui/pages/application.py",
+      "sha256": "c80bbddc468aca97ee503ef91a9f20d1353f94460993337ef76c54b0aca0e270",
+      "imports": [
+        "suite_pythoine.app",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.pages.installed_applications",
+      "path": "suite_pythoine/ui/pages/installed_applications.py",
+      "sha256": "1db383d0b033f30184d3a564ced97c018d9c818bf2088512424a8960aea41fb2",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.app",
+        "suite_pythoine.ui.helpers",
+        "suite_pythoine.ui.widgets.inventory",
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.pages.store_catalogue",
+      "path": "suite_pythoine/ui/pages/store_catalogue.py",
+      "sha256": "d5e5eff8a5be795d2c24faff704482fda517336eb6faf0d420e805398fedb528",
+      "imports": [
+        "suite_pythoine.app",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.store_content",
+        "suite_pythoine.ui.helpers"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.pages.version_history_page",
+      "path": "suite_pythoine/ui/pages/version_history_page.py",
+      "sha256": "b94aaa83552f9befc5aeed3582d2d5331cd802ba74a2ad37464af1ddef9da494",
+      "imports": [
+        "suite_pythoine",
+        "suite_pythoine.app",
+        "suite_pythoine.component_catalog",
+        "suite_pythoine.component_policy",
+        "suite_pythoine.installer",
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout",
+        "suite_pythoine.version_history"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.widgets",
+      "path": "suite_pythoine/ui/widgets/__init__.py",
+      "sha256": "bb2e85ae529780b0156f90ad57bc80a7860fa70b5f4c3814db415668b97288fe",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": []
+    },
+    {
+      "module": "suite_pythoine.ui.widgets.inventory",
+      "path": "suite_pythoine/ui/widgets/inventory.py",
+      "sha256": "fe17f8e1473e9cef2b4503958e55d64856f1464381aab0ecf1b1c4ca83403501",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.ui.pages.installed_applications"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui.widgets.prune",
+      "path": "suite_pythoine/ui/widgets/prune.py",
+      "sha256": "ac5c95c945fc48a49c471a82d1b1427f3f6623cf1040c425341b67fcffd39a5e",
+      "imports": [
+        "suite_pythoine.operation_ui",
+        "suite_pythoine.registry"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app"
+      ]
+    },
+    {
+      "module": "suite_pythoine.ui_titles",
+      "path": "suite_pythoine/ui_titles.py",
+      "sha256": "23fbf126cdec44ac5ddf08c897c4a25ff0b54871e98c52a28fa12ae40281b705",
+      "imports": [
+        "suite_pythoine"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.developer_intake",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.migration_wizard",
+        "suite_pythoine.purge_wizard",
+        "suite_pythoine.recovery_restore_wizard",
+        "suite_pythoine.routing_chooser",
+        "suite_pythoine.self_restore",
+        "suite_pythoine.ui.dialogs.preferences"
+      ]
+    },
+    {
+      "module": "suite_pythoine.version_history",
+      "path": "suite_pythoine/version_history.py",
+      "sha256": "f758e7928bcd6a8aefed610f54d5c7014c1eff8eab0bf24a2af51039db39850b",
+      "imports": [
+        "suite_pythoine.recovery",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_layout"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.ui.pages.version_history_page"
+      ]
+    },
+    {
+      "module": "suite_pythoine.version_management",
+      "path": "suite_pythoine/version_management.py",
+      "sha256": "a1aca2487a0f1762db02c00c11d278d1abf6f50da9c38058b20eb1f8a6f3e5ce",
+      "imports": [
+        "suite_pythoine.versioning"
+      ],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.install_wizard"
+      ]
+    },
+    {
+      "module": "suite_pythoine.versioning",
+      "path": "suite_pythoine/versioning.py",
+      "sha256": "3f8b48a2957556b618bafdcb939a8210a15574ecdb6e4d72defad7da49b1a915",
+      "imports": [],
+      "uses___file__": false,
+      "has_dynamic_import_call": false,
+      "imported_by": [
+        "suite_pythoine.app",
+        "suite_pythoine.appimage_build_wizard",
+        "suite_pythoine.appimage_inspection",
+        "suite_pythoine.appimage_wizard",
+        "suite_pythoine.install_inspection",
+        "suite_pythoine.install_wizard",
+        "suite_pythoine.installation_state",
+        "suite_pythoine.installer",
+        "suite_pythoine.registry",
+        "suite_pythoine.storage_migration",
+        "suite_pythoine.ui.pages.installed_applications",
+        "suite_pythoine.version_management"
+      ]
+    }
+  ]
+}
