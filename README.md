@@ -62,24 +62,24 @@ Applications remain free to run independently outside the Suite.
 
 # Featured applications
 
-## Markopad & Marko Plus
+## MaqaronyPad & MaqaronyDesk
 
-### Markopad
+### MaqaronyPad
 
 A focused Markdown editor built around a clean writing workflow.
 
-**Markopad** keeps Markdown editing straightforward while providing the
+**MaqaronyPad** keeps Markdown editing straightforward while providing the
 tools needed to write, structure and preview documents without turning
 the editor into an IDE.
 
 **Focused Markdown. Clear workflow.**
 
-[https://github.com/brunonlinespace/markopad](https://github.com/brunonlinespace/markopad)
+[https://github.com/brunonlinespace/maqaronypad](https://github.com/brunonlinespace/maqaronypad)
 
-### Marko Plus
+### MaqaronyDesk
 
-**Marko Plus** takes the Markopad editing experience and adds the shared
-Plus workspace infrastructure.
+**MaqaronyDesk** takes the MaqaronyPad editing experience and adds the shared
+Desk workspace infrastructure.
 
 It combines:
 
@@ -92,40 +92,40 @@ It combines:
 - **Split View**
 - **Preview**
 
-Markopad remains the focused standalone editor.
+MaqaronyPad remains the focused standalone editor.
 
-Marko Plus is the workspace edition.
+MaqaronyDesk is the workspace edition.
 
-[https://github.com/brunonlinespace/marko-plus](https://github.com/brunonlinespace/marko-plus)
+[https://github.com/brunonlinespace/maqaronydesk](https://github.com/brunonlinespace/maqaronydesk)
 
 ---
 
-## Ricopad & Rico Plus
+## RiqatonyPad & RiqatonyDesk
 
-### Ricopad
+### RiqatonyPad
 
 A dedicated rich-text editor focused on **RTF**.
 
-Ricopad provides a native document-editing environment with formatting,
+RiqatonyPad provides a native document-editing environment with formatting,
 lists, tables, colours, fonts, printing and persistent RTF structure.
 
 It is deliberately a specialist editor rather than a general-purpose
 office suite.
 
-[https://github.com/brunonlinespace/ricopad](https://github.com/brunonlinespace/ricopad)
+[https://github.com/brunonlinespace/riqatonypad](https://github.com/brunonlinespace/riqatonypad)
 
-### Rico Plus
+### RiqatonyDesk
 
-**Rico Plus** applies the same Plus workspace philosophy used by
-Marko Plus to Ricopad.
+**RiqatonyDesk** applies the same Desk workspace philosophy used by
+MaqaronyDesk to RiqatonyPad.
 
-It combines Ricopad's rich-text engine with the shared project and
+It combines RiqatonyPad's rich-text engine with the shared project and
 workspace infrastructure descended from Python Lair.
 
-**Ricopad for the document.  
-Rico Plus for the workspace.**
+**RiqatonyPad for the document.  
+RiqatonyDesk for the workspace.**
 
-[https://github.com/brunonlinespace/rico-plus](https://github.com/brunonlinespace/rico-plus)
+[https://github.com/brunonlinespace/riqatonydesk](https://github.com/brunonlinespace/riqatonydesk)
 
 ---
 
@@ -135,7 +135,7 @@ Nuxpad is one of the foundational applications in the brunonlinespace
 family.
 
 Its development helped establish ideas that later evolved through
-**Python Lair**, the Pad family and eventually the shared Plus workspace
+**Python Lair**, the Pad family and eventually the shared Desk workspace
 architecture.
 
 Nuxpad represents the lightweight-editor roots of the ecosystem:
@@ -164,11 +164,11 @@ Pad family
    ↓
 extracted workspace scaffolding
    ↓
-Marko Plus / Rico Plus
+MaqaronyDesk / RiqatonyDesk
 ````
 
 Python Lair therefore remains both a Python-focused working environment
-and an architectural ancestor of the modern **Plus** applications.
+and an architectural ancestor of the modern **Desk** applications.
 
 [https://github.com/brunonlinespace/python-lair](https://github.com/brunonlinespace/python-lair)
 
@@ -237,27 +237,27 @@ software platform around them.
 
 ---
 
-# Pads, Plus and Lair
+# Pads, Desk and Lair
 
 The names describe different application roles.
 
 | Family    | Meaning                                                      |
 | --------- | ------------------------------------------------------------ |
 | **Pad**   | A focused standalone application                             |
-| **Plus**  | A Pad expanded with shared project/workspace infrastructure  |
+| **Desk**  | A Pad expanded with shared project/workspace infrastructure  |
 | **Lair**  | The original workspace lineage represented by Python Lair    |
 | **Suite** | The hub connecting and managing the wider application family |
 
 The distinction is intentional.
 
-A Plus application does not replace its Pad counterpart.
+A Desk application does not replace its Pad counterpart.
 
 ```text
-Markopad   → focused Markdown editor
-Marko Plus → Markdown workspace
+MaqaronyPad   → focused Markdown editor
+MaqaronyDesk → Markdown workspace
 
-Ricopad    → focused RTF editor
-Rico Plus  → rich-text workspace
+RiqatonyPad    → focused RTF editor
+RiqatonyDesk  → rich-text workspace
 ```
 
 Users can choose whichever level of application they actually need.
@@ -321,11 +321,11 @@ For example:
 ```text
 .md / .markdown
         ↓
-     Markopad
+     MaqaronyPad
 
 .rtf
         ↓
-      Ricopad
+      RiqatonyPad
 
 .html / .htm / .css
         ↓
@@ -505,7 +505,7 @@ Instead:
                           │
           ┌───────────────┼───────────────┐
           │               │               │
-        Pads            Plus          other families
+        Pads            Desk          other families
           │               │               │
    focused apps     workspaces      specialist tools
           │               │               │

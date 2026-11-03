@@ -6,9 +6,10 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from suite_pythoine.perf_trace import process_start_perf  # starts dormant process timing before Qt import
 from suite_pythoine import APP_NAME, __version__
-from suite_pythoine.store_bridge import ensure_control_bridge, handle_store_protocol_cli
-from suite_pythoine.developer_policy import handle_developer_cli
+from suite_pythoine.store.store_bridge import ensure_control_bridge, handle_store_protocol_cli
+from suite_pythoine.developer.developer_policy import handle_developer_cli
 
 
 def _existing_startup_paths(arguments: list[str]) -> list[Path]:
@@ -36,7 +37,7 @@ if __name__ == "__main__":
         if not diagnose_target:
             print("Usage: main.py --diagnose-routing <file>", file=sys.stderr)
             raise SystemExit(2)
-        from suite_pythoine.silent_dispatch import diagnose_routing
+        from suite_pythoine.routing.silent_dispatch import diagnose_routing
         print(diagnose_routing(diagnose_target))
         raise SystemExit(0)
 
@@ -66,7 +67,7 @@ if __name__ == "__main__":
     smoke_test = "--suite-pythoine-smoke-test" in sys.argv
     startup_paths = _existing_startup_paths(sys.argv[1:])
     if startup_paths and not force_show and not smoke_test:
-        from suite_pythoine.silent_dispatch import dispatch_paths_silently
+        from suite_pythoine.routing.silent_dispatch import dispatch_paths_silently
 
         result = dispatch_paths_silently(startup_paths, __file__)
         for message in result.errors:
@@ -77,7 +78,7 @@ if __name__ == "__main__":
             # Ambiguity must stay pseudo-silent: import only the tiny chooser,
             # never the full Suite window, unless a requested launch genuinely
             # fails and needs the hub as a recovery surface.
-            from suite_pythoine.routing_chooser import run_routing_choices
+            from suite_pythoine.routing.routing_chooser import run_routing_choices
             if not run_routing_choices(result.choices):
                 chooser_failed_paths.update(str(choice.path) for choice in result.choices)
 
@@ -85,7 +86,7 @@ if __name__ == "__main__":
             # Unsupported-file inspection is deliberately a post-routing stage:
             # normal trusted Editor/Reader candidates have already been proven
             # absent before this compact Beespector chooser can be reached.
-            from suite_pythoine.routing_chooser import run_inspector_fallback_choices
+            from suite_pythoine.routing.routing_chooser import run_inspector_fallback_choices
             if not run_inspector_fallback_choices(result.inspector_choices):
                 chooser_failed_paths.update(str(choice.path) for choice in result.inspector_choices)
 

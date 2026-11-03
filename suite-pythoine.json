@@ -1,7 +1,7 @@
 {
   "id": "suite-pythoine",
   "name": "Suite Pythoine",
-  "description": "A fast file-routing and component-management hub for the brunonlinespace application family.",
+  "description": "A fast file-routing and application-management hub for the brunonlinespace application family.",
   "extensions": [
     ".txt",
     ".log",
@@ -35,7 +35,7 @@
     "main.py"
   ],
   "icon": "suite_pythoine/assets/suite-pythoine-master-1024.png",
-  "version": "0.3.3",
+  "version": "1.0.0-x2.6",
   "publisher": "brunonlinespace",
   "repository": "https://github.com/brunonlinespace/suite-pythoine",
   "tagline": "Friendly. Fast. Focused.",
