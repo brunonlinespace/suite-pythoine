@@ -1,13 +1,3 @@
-<p align="center">
-  <a href="https://github.com/brunonlinespace/suite-pythoine">
-    <img
-      src="suite_pythoine/assets/suite-pythoine-master-1024.png"
-      alt="Suite Pythoine"
-      width="280"
-    >
-  </a>
-</p>
-
 <h1 align="center">Suite Pythoine</h1>
 
 <p align="center">
@@ -24,6 +14,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://pythoine.neocities.org/">
+    pythoine.neocities.org
+  </a>
+</p>
+
 Suite Pythoine is a desktop application hub for the **brunonlinespace**
 software family.
 
@@ -33,6 +29,16 @@ discovery, and application management in one consistent interface.
 
 The individual applications remain useful on their own. Suite Pythoine
 simply gives them a shared home.
+
+<p align="center">
+  <a href="https://github.com/brunonlinespace/suite-pythoine">
+    <img
+      src="suite_pythoine/assets/suite-pythoine-master-1024.png"
+      alt="Suite Pythoine"
+      width="280"
+    >
+  </a>
+</p>
 
 ---
 
@@ -60,180 +66,41 @@ Applications remain free to run independently outside the Suite.
 
 ---
 
-# Featured applications
+# Applications
 
-## MaqaronyPad & MaqaronyDesk
+Suite Pythoine brings together independently useful applications from the **brunonlinespace** family. Each keeps its own purpose and can run outside the Suite; the Hub provides shared discovery, installation, management and file routing where supported.
 
-### MaqaronyPad
+The index below groups the **current applications and companions** by purpose, following the compact, linked format of the LinSpectacles applet index. Historical catalogue identities are not listed as separate current products.
 
-A focused Markdown editor built around a clean writing workflow.
+## Documents and workspaces
 
-**MaqaronyPad** keeps Markdown editing straightforward while providing the
-tools needed to write, structure and preview documents without turning
-the editor into an IDE.
+- **[MaqaronyDesk](https://github.com/brunonlinespace/maqaronydesk)** — Markdown workspace editor with folder navigation, dashboards, document tabs and source/preview views.
+- **[MaqaronyPad](https://github.com/brunonlinespace/maqaronypad)** — Standalone Markdown editor with source-authoritative editing and a read-only rendered preview.
+- **[Nuxpad 2](https://github.com/brunonlinespace/nuxpad)** — Lightweight general-purpose text editor for ordinary text, log and configuration files.
+- **[RiqatonyDesk](https://github.com/brunonlinespace/riqatonydesk)** — Rich Text Format workspace editor with folder navigation, dashboards and persistent document tabs.
+- **[RiqatonyPad](https://github.com/brunonlinespace/riqatonypad)** — Standalone RTF editor with a Ribbon interface, rich-text formatting and ordinary `.rtf` documents.
 
-**Focused Markdown. Clear workflow.**
+## Source editing and scripting
 
-[https://github.com/brunonlinespace/maqaronypad](https://github.com/brunonlinespace/maqaronypad)
+- **[JSTS Pad](https://github.com/brunonlinespace/jsts-pad)** — Focused JavaScript, TypeScript, JSX and TSX source editing with language-aware highlighting and an insertion Library.
+- **[Python Lair](https://github.com/brunonlinespace/python-lair)** — Workspace for finding, editing, organising and launching ordinary Python scripts.
+- **[Sheepy Pad](https://github.com/brunonlinespace/sheepy-pad)** — Python and shell-script editor and launcher with syntax-aware editing and execution controls.
+- **[Texypad](https://github.com/brunonlinespace/texypad)** — LaTeX and BibTeX source editor with host TeX compilation and an integrated PDF print view.
+- **[Timblee Pad](https://github.com/brunonlinespace/timblee-pad)** — HTML, CSS and XML-family source editor with templates, language-aware highlighting and browser preview.
 
-### MaqaronyDesk
+## Reading and file inspection
 
-**MaqaronyDesk** takes the MaqaronyPad editing experience and adds the shared
-Desk workspace infrastructure.
+- **[Beespector](https://github.com/brunonlinespace/beespector)** — Read-only binary and hexadecimal file inspection with metadata, signature analysis and exact two-file comparison.
+- **[Beespector Lite](https://github.com/brunonlinespace/beespector-lite)** — Streamlined single-file read-only hex inspector without multi-file comparison.
+- **[Kapitulindo](https://github.com/brunonlinespace/kapitulindo)** — EPUB reader with contents navigation, cross-chapter search and an optional personal book Library.
+- **[Portapad](https://github.com/brunonlinespace/portapad)** — Focused PDF reader with document navigation, contents and search.
 
-It combines:
+## Web, bookmarks and Git utilities
 
-- project and workspace management
-- file and folder discovery
-- a persistent project sidebar
-- quick project selection
-- richer document navigation
-- **Edit**
-- **Split View**
-- **Preview**
-
-MaqaronyPad remains the focused standalone editor.
-
-MaqaronyDesk is the workspace edition.
-
-[https://github.com/brunonlinespace/maqaronydesk](https://github.com/brunonlinespace/maqaronydesk)
-
----
-
-## RiqatonyPad & RiqatonyDesk
-
-### RiqatonyPad
-
-A dedicated rich-text editor focused on **RTF**.
-
-RiqatonyPad provides a native document-editing environment with formatting,
-lists, tables, colours, fonts, printing and persistent RTF structure.
-
-It is deliberately a specialist editor rather than a general-purpose
-office suite.
-
-[https://github.com/brunonlinespace/riqatonypad](https://github.com/brunonlinespace/riqatonypad)
-
-### RiqatonyDesk
-
-**RiqatonyDesk** applies the same Desk workspace philosophy used by
-MaqaronyDesk to RiqatonyPad.
-
-It combines RiqatonyPad's rich-text engine with the shared project and
-workspace infrastructure descended from Python Lair.
-
-**RiqatonyPad for the document.  
-RiqatonyDesk for the workspace.**
-
-[https://github.com/brunonlinespace/riqatonydesk](https://github.com/brunonlinespace/riqatonydesk)
-
----
-
-## Nuxpad
-
-Nuxpad is one of the foundational applications in the brunonlinespace
-family.
-
-Its development helped establish ideas that later evolved through
-**Python Lair**, the Pad family and eventually the shared Desk workspace
-architecture.
-
-Nuxpad represents the lightweight-editor roots of the ecosystem:
-focused tools, restrained interfaces and minimal friction between
-opening a file and working on it.
-
-[https://github.com/brunonlinespace/nuxpad](https://github.com/brunonlinespace/nuxpad)
-
----
-
-## Python Lair
-
-Python Lair occupies a special place in the history of the project
-family.
-
-The development path broadly became:
-
-```text
-Nuxpad
-   ↓
-Python Lair
-   ↓
-shared application/editor ideas
-   ↓
-Pad family
-   ↓
-extracted workspace scaffolding
-   ↓
-MaqaronyDesk / RiqatonyDesk
-````
-
-Python Lair therefore remains both a Python-focused working environment
-and an architectural ancestor of the modern **Desk** applications.
-
-[https://github.com/brunonlinespace/python-lair](https://github.com/brunonlinespace/python-lair)
-
----
-
-## Timblee Pad
-
-A specialist editor for web-oriented source files.
-
-Timblee Pad concentrates on formats such as:
-
-* HTML
-* HTM
-* CSS
-
-It follows the same principle as the other Pads: give a particular kind
-of file a focused application instead of making every editor responsible
-for everything.
-
-[https://github.com/brunonlinespace/timblee-pad](https://github.com/brunonlinespace/timblee-pad)
-
----
-
-## Portapad
-
-A lightweight PDF reader built around reading rather than
-document-authoring complexity.
-
-Portapad has evolved through experiments with:
-
-* single-page reading
-* continuous reading
-* document contents
-* search
-* navigation
-
-Its goal remains straightforward: make opening and reading a PDF quick
-and comfortable.
-
-[https://github.com/brunonlinespace/portapad](https://github.com/brunonlinespace/portapad)
-
----
-
-## Beespector family
-
-The **Beespector** family explores another branch of the same design
-philosophy: inspection, browsing and organisation through focused
-desktop interfaces.
-
-### Beespector
-
-The fuller hex inspection-oriented application with 2-file comparison capability.
-
-[https://github.com/brunonlinespace/beespector](https://github.com/brunonlinespace/beespector)
-
-### Beespector Lite
-
-A lighter companion for users who want the essential 1-file hex reading workflow with less
-surrounding machinery.
-
-[https://github.com/brunonlinespace/beespector-lite](https://github.com/brunonlinespace/beespector-lite)
-
-Both retain the brunonlinespace preference for applications that remain
-understandable, portable and useful without requiring an enormous
-software platform around them.
+- **[Crawlindo](https://github.com/brunonlinespace/crawlindo)** — Website crawling and downloading utility.
+- **[gitten](https://github.com/brunonlinespace/gitten)** — Git repository utility for the Pad application family.
+- **[Sbookypad](https://github.com/brunonlinespace/sbookypad)** — Bookmark analysis and cleanup utility.
+- **[Youlindo](https://github.com/brunonlinespace/youlindo)** — Standalone video downloader.
 
 ---
 
