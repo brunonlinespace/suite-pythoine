@@ -90,7 +90,33 @@ The index below groups the **current applications and companions** by purpose, f
 
 ---
 
-# Pads, Desk and Lair
+# A family, not a monolith
+
+Suite Pythoine is intentionally **not** an attempt to merge every
+brunonlinespace application into a single executable.
+
+Instead:
+
+```text
+                    Suite Pythoine
+                          │
+          ┌───────────────┼───────────────┐
+          │               │               │
+        Pads            Desk          other families
+          │               │               │
+   focused apps     workspaces      specialist tools
+          │               │               │
+          └───────────────┴───────────────┘
+                          │
+                    shared ecosystem
+```
+
+The applications can evolve independently while still benefiting from
+common discovery, routing and management infrastructure.
+
+---
+
+## Pads & Desk
 
 The names describe different application roles.
 
@@ -98,7 +124,6 @@ The names describe different application roles.
 | --------- | ------------------------------------------------------------ |
 | **Pad**   | A focused standalone application                             |
 | **Desk**  | A Pad expanded with shared project/workspace infrastructure  |
-| **Lair**  | The original workspace lineage represented by Python Lair    |
 | **Suite** | The hub connecting and managing the wider application family |
 
 The distinction is intentional.
@@ -114,27 +139,6 @@ RiqatonyDesk  → rich-text workspace
 ```
 
 Users can choose whichever level of application they actually need.
-
----
-
-# Store Pythoine
-
-**Store Pythoine** is the catalogue and software-distribution companion
-to Suite Pythoine.
-
-It provides a natural home for discovering supported applications and
-complements Suite Pythoine's installation and component-management
-infrastructure.
-
-```text
-Store Pythoine
-      ↓
-discover / obtain applications
-
-Suite Pythoine
-      ↓
-install / manage / launch / route files
-```
 
 ---
 
@@ -305,6 +309,36 @@ job in front of the user.
 
 ---
 
+# More of the ecosystem
+
+Suite Pythoine is designed to accommodate a growing collection of
+specialist applications and families.
+
+These include **Store Pythoine**, the application catalogue companion, and
+**LinSpectacles**, the Linux inspection family.
+---
+
+## Store Pythoine
+
+**Store Pythoine** is the catalogue and software-distribution companion
+to Suite Pythoine.
+
+It provides a natural home for discovering supported applications and
+complements Suite Pythoine's installation and component-management
+infrastructure.
+
+```text
+Store Pythoine
+      ↓
+discover / obtain applications
+
+Suite Pythoine
+      ↓
+install / manage / launch / route files
+```
+
+---
+
 ## LinSpectacles
 
 The Linux inspection family is developed as its own distinct project
@@ -322,32 +356,6 @@ Suite Pythoine provides a bridge for discovery, installation and
 launching.
 
 [https://github.com/linspectacles](https://github.com/linspectacles)
-
----
-
-# A family, not a monolith
-
-Suite Pythoine is intentionally **not** an attempt to merge every
-brunonlinespace application into a single executable.
-
-Instead:
-
-```text
-                    Suite Pythoine
-                          │
-          ┌───────────────┼───────────────┐
-          │               │               │
-        Pads            Desk          other families
-          │               │               │
-   focused apps     workspaces      specialist tools
-          │               │               │
-          └───────────────┴───────────────┘
-                          │
-                    shared ecosystem
-```
-
-The applications can evolve independently while still benefiting from
-common discovery, routing and management infrastructure.
 
 ---
 
