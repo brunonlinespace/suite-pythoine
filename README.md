@@ -1,20 +1,10 @@
-<h1 align="center">Suite Pythoine</h1>
+![Suite Pythoine](suite_pythoine/assets/suite-pythoine-256.png)
 
-<p align="center">
-  <img
-    src="suite_pythoine/assets/suite-pythoine-master-1024.png"
-    alt="Suite Pythoine"
-    width="280"
-  >
-</p>
+# Suite Pythoine
 
-<p align="center">
-  <strong>Your applications. Your files. One home.</strong>
-</p>
+**Your applications. Your files. One home.**
 
-<p align="center">
-  <strong>Friendly. Fast. Focused.</strong>
-</p>
+**Friendly. Fast. Focused.**
 
 Suite Pythoine is a desktop application hub for the **brunonlinespace**
 software family.
@@ -25,6 +15,10 @@ discovery, and application management in one consistent interface.
 
 The individual applications remain useful on their own. Suite Pythoine
 simply gives them a shared home.
+
+**Current release:** `1.0.0-x2.6`
+
+**Repository:** https://github.com/brunonlinespace/suite-pythoine
 
 ---
 
@@ -316,6 +310,7 @@ specialist applications and families.
 
 These include **Store Pythoine**, the application catalogue companion, and
 **LinSpectacles**, the Linux inspection family.
+
 ---
 
 ## Store Pythoine
