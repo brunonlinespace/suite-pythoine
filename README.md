@@ -1,23 +1,19 @@
 <h1 align="center">Suite Pythoine</h1>
 
 <p align="center">
+  <img
+    src="suite_pythoine/assets/suite-pythoine-master-1024.png"
+    alt="Suite Pythoine"
+    width="280"
+  >
+</p>
+
+<p align="center">
   <strong>Your applications. Your files. One home.</strong>
 </p>
 
 <p align="center">
   <strong>Friendly. Fast. Focused.</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/brunonlinespace/suite-pythoine">
-    github.com/brunonlinespace/suite-pythoine
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://pythoine.neocities.org/">
-    pythoine.neocities.org
-  </a>
 </p>
 
 Suite Pythoine is a desktop application hub for the **brunonlinespace**
@@ -29,16 +25,6 @@ discovery, and application management in one consistent interface.
 
 The individual applications remain useful on their own. Suite Pythoine
 simply gives them a shared home.
-
-<p align="center">
-  <a href="https://github.com/brunonlinespace/suite-pythoine">
-    <img
-      src="suite_pythoine/assets/suite-pythoine-master-1024.png"
-      alt="Suite Pythoine"
-      width="280"
-    >
-  </a>
-</p>
 
 ---
 
@@ -131,28 +117,7 @@ Users can choose whichever level of application they actually need.
 
 ---
 
-# More of the ecosystem
-
-Suite Pythoine is designed to accommodate a growing collection of
-specialist applications and families.
-
-Other projects include tools for:
-
-* bookmark inspection and cleanup
-* file management
-* EPUB reading
-* Git workflows
-* website crawling and downloading
-* media downloading
-* development environments
-* Linux system inspection
-
-The ecosystem continues to favour **specialist applications over one
-giant application**.
-
----
-
-## Store Pythoine
+# Store Pythoine
 
 **Store Pythoine** is the catalogue and software-distribution companion
 to Suite Pythoine.
@@ -387,6 +352,8 @@ common discovery, routing and management infrastructure.
 ---
 
 # Project status
+
+Website: [pythoine.neocities.org](https://pythoine.neocities.org/)
 
 Suite Pythoine is under active development.
 
