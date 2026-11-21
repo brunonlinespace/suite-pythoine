@@ -1,4 +1,6 @@
-![Suite Pythoine](suite_pythoine/assets/suite-pythoine-256.png)
+<p align="center">
+  <img src="suite_pythoine/assets/suite-pythoine-256.png" alt="Suite Pythoine">
+</p>
 
 # Suite Pythoine
 
@@ -190,6 +192,25 @@ executable.
 That means adding or updating supported software does not necessarily
 require rebuilding the entire Hub.
 
+## Store Pythoine
+
+**Store Pythoine** is the catalogue and software-distribution companion
+to Suite Pythoine.
+
+It provides a natural home for discovering supported applications and
+complements Suite Pythoine's installation and component-management
+infrastructure.
+
+```text
+Store Pythoine
+      ↓
+discover / obtain applications
+
+Suite Pythoine
+      ↓
+install / manage / launch / route files
+```
+
 ---
 
 # Portable and managed applications
@@ -303,36 +324,12 @@ job in front of the user.
 
 ---
 
-# More of the ecosystem
+# Another ecosystem
 
 Suite Pythoine is designed to accommodate a growing collection of
 specialist applications and families.
 
-These include **Store Pythoine**, the application catalogue companion, and
-**LinSpectacles**, the Linux inspection family.
-
----
-
-## Store Pythoine
-
-**Store Pythoine** is the catalogue and software-distribution companion
-to Suite Pythoine.
-
-It provides a natural home for discovering supported applications and
-complements Suite Pythoine's installation and component-management
-infrastructure.
-
-```text
-Store Pythoine
-      ↓
-discover / obtain applications
-
-Suite Pythoine
-      ↓
-install / manage / launch / route files
-```
-
----
+This includes **LinSpectacles**, the Linux inspection family.
 
 ## LinSpectacles
 
@@ -350,13 +347,11 @@ The family can remain independently developed and distributed while
 Suite Pythoine provides a bridge for discovery, installation and
 launching.
 
-[https://github.com/linspectacles](https://github.com/linspectacles)
+Repository: [https://github.com/linspectacles](https://github.com/linspectacles)
 
 ---
 
 # Project status
-
-Website: [pythoine.neocities.org](https://pythoine.neocities.org/)
 
 Suite Pythoine is under active development.
 
@@ -369,14 +364,18 @@ evolve as the wider application family grows.
 The project favours deliberate incremental development over attempting
 to turn the Suite into an all-purpose desktop environment.
 
+Website: [pythoine.neocities.org](https://pythoine.neocities.org/)
+
 ---
 
 # Author
 
-**brunonlinespace (Bruno G. Machado)**
+**[brunonlinespace (Bruno G. Machado)](https://github.com/brunonlinespace/)**
 
 Suite Pythoine and the surrounding software family are independent
 open-source projects created under the brunonlinespace identity.
+
+Website: [brunonlinespace.neocities.com](https://brunonlinespace.neocities.com/)
 
 ---
 
